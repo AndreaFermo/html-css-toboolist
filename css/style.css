@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 #header-logo{
@@ -74,7 +75,7 @@ main{
 .titoli{
     font-size: 30px;
     font-weight: bold;
-    margin: 15px 0px;
+    margin-top: 60px;
 }
 
 .titoli::before{
@@ -143,16 +144,20 @@ main{
 .done::before{
     color: rgb(17, 192, 163);
     content: '\2713';
-    padding: 3px 6px;
+    padding: 0px 9px;
     border: 3px solid rgb(17, 192, 163);
     border-radius: 50%;
+    display:inline-block;
+    margin-right: 30px; 
     
 }
 
 .notdone::before{
     color: rgb(255, 17, 31);
     content: '\2715';
-    padding: 3px 6px;
+    padding: 0px 9px;
     border: 3px solid rgb(255, 17, 31);
     border-radius: 50%;
+    display:inline-block;
+    margin-right: 30px; 
 }
