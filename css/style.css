@@ -18,3 +18,35 @@ header span{
     font-weight: bold;
     vertical-align: middle;
 }
+
+main{
+   background-color: rgb(0, 162, 250); 
+   padding: 20px;
+}
+
+.container{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bottoni{
+    height: 50px;
+    width: 130px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(128, 128, 128);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#task{
+    background-color: rgb(0, 162, 239);
+}
+
+#section{
+    background-color: white;
+}
