@@ -21,7 +21,7 @@ header span{
 
 main{
    background-color: rgb(0, 162, 250); 
-   padding: 20px;
+   padding: 40px 0px 100px;
 }
 
 .container{
@@ -53,6 +53,13 @@ main{
     background-color: white;
     height: 50px;
     width: 150px;
+}
+
+#spazio{
+    height: 3px;
+    background-color: rgb(244, 247, 248) ;
+    width: 80%;
+    margin: auto;
 }
 
 .container2{
@@ -131,4 +138,21 @@ main{
     font-size: 20px;
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+.done::before{
+    color: rgb(17, 192, 163);
+    content: '\2713';
+    padding: 3px 6px;
+    border: 3px solid rgb(17, 192, 163);
+    border-radius: 50%;
+    
+}
+
+.notdone::before{
+    color: rgb(255, 17, 31);
+    content: '\2715';
+    padding: 3px 6px;
+    border: 3px solid rgb(255, 17, 31);
+    border-radius: 50%;
 }
