@@ -28,25 +28,107 @@ main{
     background-color: white;
     width: 80%;
     margin: auto;
-    padding: 50px;
+    padding: 50px 100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .bottoni{
-    height: 50px;
-    width: 130px;
+   
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(128, 128, 128);
     font-size: 20px;
     font-weight: bold;
+    margin: 3px;
 }
 
-#task{
+#buttontask{
     background-color: rgb(0, 162, 239);
+    height: 50px;
+    width: 130px;
 }
 
-#section{
+#buttonsection{
     background-color: white;
+    height: 50px;
+    width: 150px;
+}
+
+.container2{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 50px 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.titoli{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.titoli::before{
+    content: '\2714';
+    padding-right: 10px;
+}
+
+.done{
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+.notdone{
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+.editorial{
+    background-color: rgb(0, 161, 230);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.q1{
+    background-color: rgb(159, 82, 220);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.recr{
+    background-color: rgb(17, 192, 163);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.mobile{
+    background-color: rgb(255, 141, 37);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.website{
+    background-color: rgb(237, 59, 143);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.sales{
+    background-color: rgb(155, 203, 53);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
 }
